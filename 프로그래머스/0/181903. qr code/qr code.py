@@ -1,6 +1,7 @@
 def solution(q, r, code):
-    answer = ''
+    answer = []
     for i in range(len(code)):
         if i%q == r:
-            answer += code[i]
-    return answer
+            answer.append(code[i])
+    
+    return ''.join(map(str, answer))
