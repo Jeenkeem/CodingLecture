@@ -6,8 +6,14 @@ def solution(s):
         if x_cnt == others_cnt:
             answer += 1
             val = i
-        if val == i: 
+        if i == val:
             x_cnt += 1
         else:
             others_cnt += 1
     return answer
+         
+    
+        
+        
+        
+        
